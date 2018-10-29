@@ -88,7 +88,7 @@ def cal_time(func):
 #时间修饰器
 @cal_time
 def bin_search(data_set,val):
-    #low 和high： 最小下标，最大下标，在给定数集列表data_set中查找val这个值
+    #low 和high： 最小下标，最大下标，在给定数集列表data_set中 查找val这个值
     low=0
     high=len(data_set)-1
     # 当low小于High的时候可取中间数
